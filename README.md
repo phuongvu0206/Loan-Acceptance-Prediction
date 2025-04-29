@@ -4,6 +4,21 @@
 
 Here is my project that leverages traditional machine learning models to predict whether a loan applicant should be approved or rejected. It emphasizes data quality and usability, with proper cleaning and preprocessing to filter out irrelevant or noisy features. The project also includes exploratory data analysis (EDA) to help understand patterns, relationships, and trends in the dataset. 
 
+## Goals and Objectives
+**Goal:**
+
+Develop a predictive and interpretable machine learning model to assist banks in assessing the risk of potential loans and provide transparent, data-driven justifications to encourage investor confidence in lending decisions.
+
+**Key objectives:**
+
+- **Analyze:** To understand the structure and patterns within the dataset.
+
+- **Develop Predictive Models:** That are robust and well-suited to predict the likelihood of loan approval for new applicants.
+
+- **Evaluate Models**: Compare and evaluate the performance of different models.
+
+- **Select the Best Model:** That is both practical for real-world deployment and highly interpretable.
+
 ## Dataset
 ![Dataset Context](dataset_image.png)
 <!-- <div align="center">
@@ -14,8 +29,10 @@ The dataset used in this project is from [Kaggle's Loan Classification Dataset](
 - [loan.csv](https://github.com/phuongvu0206/Loan-Acceptance-Prediction/blob/main/data/loan.csv): Contains data used to analyze and train machine learning models.
 - [Data_Dictionary.xlsx](https://github.com/phuongvu0206/Loan-Acceptance-Prediction/blob/main/data/Data_Dictionary.xlsx): Contains a data dictionary containing the columns with the feature name and their respective description for loan acceptance and rejection status.
 
-## Goals and Objectives
+## Requirements
 
+Install the required Python libraries using pip:
 
-
-Feel free to explore the datasets and refer to the project documentation for a detailed description of each attribute.
+```bash
+pip install -r requirements.txt
+```
