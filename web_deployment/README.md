@@ -30,7 +30,7 @@ Replace `"path/to/web_deployment"` with the actual path to your `web_deployment`
 Start the application by running:
 
 ```bash
-streamlit run web_deployment.py
+streamlit run web_deploy.py
 ```
 
 If successful, your terminal will display a local URL where you can view the app in your browser.
