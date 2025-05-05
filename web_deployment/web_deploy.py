@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle as pk
 
-# Set up the page configuration
 st.set_page_config(
     page_title="Loan Acceptance Prediction App",
     page_icon="🏦📑",
@@ -57,6 +56,7 @@ def main():
 
     st.sidebar.markdown("### Enter the following information:")
 
+
     # Input fields in sidebar
     total_rec_prncp = st.sidebar.number_input(
         "📥 Total Principal Received (total_rec_prncp)",
@@ -100,6 +100,7 @@ def main():
                 st.error(f'❌ **Your loan has been {result}**')
                 st.warning("Unfortunately, your loan application is likely to be rejected.")
 
+
     # Main content
     st.markdown(
         """
@@ -113,14 +114,6 @@ def main():
         unsafe_allow_html=True
     )
 
-    # if 'result' in st.session_state:
-    #     result = st.session_state['result']
-    #     if result == 'Approved':
-    #         st.success(f'🎉 **Your loan has been {result}**')
-    #         st.balloons()
-    #     else:
-    #         st.error(f'❌ **Your loan has been {result}**')
-    #         st.warning("Please check your information or contact support.")
 
     # Footer
     st.markdown(
